@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Baba Traders | Construction Materials in Sandur</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Baba Traders</div>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Toggle menu">
+      ☰
+    </button>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="tag">Construction materials • Paints • Hardware</p>
+        <h1>Baba Traders – Wide Range of Construction Materials at Best Price in Sandur</h1>
+        <p class="hero-desc">
+          One stop shop in Sandur for paints, cement, plumbing, electrical items and all types of building materials. 
+          Quality brands, genuine pricing and friendly service.
+        </p>
+        <div class="hero-actions">
+          <!-- Put your real number here -->
+          <a href="tel:+910000000000" class="btn-primary">Call now</a>
+          <a href="#products" class="btn-ghost">View products</a>
+        </div>
+        <p class="hero-note">Serving homeowners, contractors and builders in and around Sandur.</p>
+      </div>
+      <div class="hero-image-card">
+        <img src="images/shop-outside.jpg" alt="Front view of Baba Traders construction materials shop in Sandur" />
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="section-header">
+      <h2>About Baba Traders</h2>
+      <p>
+        Baba Traders is a local construction and hardware store in Sandur providing all essential building materials under one roof.
+        From foundation to finishing, we help you complete your work on time and within budget.
+      </p>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <h3>Best price in Sandur</h3>
+        <p>We offer competitive pricing on all materials so you get maximum value for your project.</p>
+      </div>
+      <div class="card">
+        <h3>Trusted brands</h3>
+        <p>
+          Deals in top brands like JSW Paints, Nippon Paint, Ambuja Cement, Ashirvad pipes and many more.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Reliable service</h3>
+        <p>
+          Friendly guidance, quick billing and support for both contractors and retail customers.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section id="products" class="section section-dark">
+    <div class="section-header">
+      <h2>Products We Deal In</h2>
+      <p>Everything you need for construction and renovation in one place.</p>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <h3>Paints & Primers</h3>
+        <p>
+          Interior & exterior paints, enamels, primers, putty and related accessories from leading brands.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Cement & Building Materials</h3>
+        <p>
+          Cement, blocks, masonry materials and supplies for strong and durable construction.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Plumbing & Sanitary</h3>
+        <p>
+          Pipes, fittings, taps and sanitary accessories for homes and commercial buildings.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Electrical Items</h3>
+        <p>
+          Switches, wires, fans, lights and other basic electrical materials.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Hardware & Tools</h3>
+        <p>
+          Door fittings, fasteners, basic tools and other hardware items.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Custom Requirements</h3>
+        <p>
+          Need something specific? Call us and we will try our best to arrange it for you.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="section">
+    <div class="section-header">
+      <h2>Store Gallery</h2>
+      <p>Take a look at our shop and the wide range of paints and materials we stock.</p>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="images/shop-outside.jpg" alt="Baba Traders shop front with paint buckets and construction materials" />
+      </div>
+      <div class="gallery-item">
+        <img src="images/shop-inside.jpg" alt="Inside view of Baba Traders shop with shelves full of paint tins and materials" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section section-dark">
+    <div class="section-header">
+      <h2>Contact & Location</h2>
+      <p>Visit our store in Sandur or call us for enquiries and orders.</p>
+    </div>
+
+    <div class="contact-layout">
+      <div class="contact-card">
+        <h3>Store details</h3>
+        <p><strong>Name:</strong> Baba Traders</p>
+        <p><strong>Location:</strong> Sandur, Ballari District, Karnataka</p>
+        <!-- Edit below with your exact shop address -->
+        <p><strong>Address:</strong> [Your full shop address in Sandur]</p>
+        <p><strong>Phone:</strong> <a href="tel:+910000000000">+91-00000 00000</a></p>
+        <p><strong>WhatsApp:</strong> <a href="https://wa.me/910000000000" target="_blank">Chat on WhatsApp</a></p>
+        <p><strong>Working hours:</strong> Mon – Sun, 9:00 AM – 8:00 PM</p>
+      </div>
+
+      <div class="contact-card">
+        <h3>Quick enquiry</h3>
+        <form class="contact-form" onsubmit="handleFormSubmit(event)">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" required />
+          </div>
+          <div class="form-group">
+            <label for="message">What do you need?</label>
+            <textarea id="message" name="message" rows="3" required></textarea>
+          </div>
+          <button type="submit" class="btn-primary">Send enquiry</button>
+          <p id="form-status" class="form-status"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© <span id="year"></span> Baba Traders, Sandur. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
